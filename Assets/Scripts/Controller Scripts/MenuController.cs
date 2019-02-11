@@ -54,19 +54,19 @@ public class MenuController : MonoBehaviour
 		CheckIfBirdsAreUnlocked ();
 		CheckIfLevelsAreUnlocked ();
 
-		StartCoroutine(WaitToLogin());
+		//StartCoroutine(WaitToLogin());
 	}
 
 	//Wait to sign in
 
-	IEnumerator WaitToLogin ()
+/* 	IEnumerator WaitToLogin ()
 	{
 		yield return StartCoroutine (MyCoroutine.WaitForRealSeconds (2f));
 
 		LeaderBoardController.instance.ConnectGooglePlayGames ();
 		//AdsController.instance.CallAds();
 	}
-
+ */
 	// setting the gem text score
 
 	public void SetGemTextScore ()
